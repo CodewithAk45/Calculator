@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" align="center">
+        <h1> Calculator</h1>
+        <from name="forms">
+        <div class="calc">
+         <input type="text" id="answer" name="screen"><br>
+         <input type="button" value="7" onclick="froms.screen.value+='7'">
+         <input type="button" value="8" onclick="froms.screen.value+='8'">
+         <input type="button" value="9" onclick="froms.screen.value+='9'">
+         <input type="button" value="/" onclick="froms.screen.value+='/'">
+         <input type="button" class="btn-red" value="Ac" onclick="froms.screen.value=''"><br>
+         <input type="button" value="4" onclick="froms.screen.value+='4'">
+         <input type="button" value="5" onclick="froms.screen.value+='5'">
+         <input type="button" value="6" onclick="froms.screen.value+='6'">
+         <input type="button" value="*" onclick="froms.screen.value+='*'">
+         <input type="button" value="%" onclick="froms.screen.value+='%'"><br>
+         <input type="button" value="1" onclick="froms.screen.value+='1'">
+         <input type="button" value="2" onclick="froms.screen.value+='2'">
+         <input type="button" value="3" onclick="froms.screen.value+='3'">
+         <input type="button" value="+" onclick="froms.screen.value+='+'">
+         <input type="button" value="-" onclick="froms.screen.value+='-'"><br>
+         <input type="button" value="0" onclick="froms.screen.value+=''">
+         <input type="button" value="00" onclick="froms.screen.value+='00'">
+         <input type="button" value="000" onclick="froms.screen.value+='000'">
+         <input type="button" value="." onclick="froms.screen.value+='.'">
+         <input type="button"class=btn-blue value="=" onclick="froms.screen.value= eval(froms.screen.value)">
+        </div>  
+        </from>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
